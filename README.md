@@ -41,22 +41,26 @@ This project uses two classic control environments from OpenAI Gym:
 
 ## Acrobot-v1: A two-link pendulum environment where the goal is to swing the end of the pendulum above a certain height.
 ## CartPole-v1: A pole is attached by an unactuated joint to a cart, which moves along a frictionless track. The goal is to prevent the pole from falling over.
-Algorithms<br>
+
+
+## Algorithms<br>
 
 1. Dueling DQN
 The Dueling Deep Q-Network (DQN) is an improvement over the standard DQN, where the network is split into two streams:
 
 Value stream: Estimates the value of being in a given state.
 Advantage stream: Estimates the advantage of taking each action given the state.
+
 These two streams are then combined to produce the final Q-values. The Dueling DQN agent was trained using two types of update strategies (Type-1 and Type-2) to compare their performances.
 
 2. Monte-Carlo REINFORCE
 Monte-Carlo REINFORCE is a policy gradient method that updates the policy based on the returns (cumulative rewards) obtained from complete episodes. The agent selects actions according to a policy and receives feedback based on the rewards, which is then used to update the policy to maximize the expected return.
 
-Training
+# Training
+
 The training script runs multiple episodes in the CartPole-v1 environment with different random seeds. The results for both Dueling DQN and REINFORCE are collected and analyzed.
 
-Training Dueling DQN
+## Training Dueling DQN :
 To train the Dueling DQN agent on the CartPole-v1 environment:
 
 Set the number of seeds (n_seeds) and the number of episodes (n_episodes) to control the training duration.
@@ -67,6 +71,7 @@ Results Visualization
 The results are visualized using a plot showing the mean scores across episodes for both update types. The plot also includes error bands representing the standard deviation.
 
 # Results
+
 The results include:
 
 ## Mean scores across episodes for both Type-1 and Type-2 updates.
