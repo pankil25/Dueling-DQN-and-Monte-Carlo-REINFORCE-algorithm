@@ -10,6 +10,7 @@ This repository contains Python implementations of the Dueling-DQN and Monte-Car
 - [Training](#training)
 - [Results](#results)
 - [Acknowledgments](#acknowledgments)
+- [CodeRun](#coderun)
 
 ## Installation
 
@@ -86,6 +87,11 @@ The results are visualized using Matplotlib, showing the performance of the Duel
 # Acknowledgments
 
 This implementation is based on concepts from reinforcement learning and deep learning. The OpenAI Gym environment and the PyTorch/TensorFlow frameworks were crucial for the development of this project.
+
+
+# Coderun:
+
+#### Run the ipynb file from cell number 1 to last cell number
 
 
 
