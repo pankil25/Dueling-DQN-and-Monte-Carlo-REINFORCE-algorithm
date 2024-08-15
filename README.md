@@ -34,6 +34,8 @@ You may also need to install some system packages:
 
 apt-get install -y xvfb python-opengl cmake
 ```
+
+
 # Environments:
 
 This project uses two classic control environments from OpenAI Gym:
