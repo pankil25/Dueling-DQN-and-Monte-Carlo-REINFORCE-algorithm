@@ -10,7 +10,6 @@ This repository contains Python implementations of the Dueling-DQN and Monte-Car
 - [Training](#training)
 - [Results](#results)
 - [Acknowledgments](#acknowledgments)
-- [Code](#code)
 
 ## Installation
 
