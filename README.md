@@ -64,20 +64,21 @@ The training script runs multiple episodes in the CartPole-v1 environment with d
 ## Training Dueling DQN :
 To train the Dueling DQN agent on the CartPole-v1 environment:
 
-Set the number of seeds (n_seeds) and the number of episodes (n_episodes) to control the training duration.
-For each seed, initialize the agent and environment.
-Train the agent using both update types (Type-1 and Type-2).
-Collect and store the scores for each seed and update type.
-Results Visualization
-The results are visualized using a plot showing the mean scores across episodes for both update types. The plot also includes error bands representing the standard deviation.
+Set the number of seeds (n_seeds) and the number of episodes (n_episodes) to control the training duration.<br>
+For each seed, initialize the agent and environment.<br>
+Train the agent using both update types (Type-1 and Type-2).<br>
+Collect and store the scores for each seed and update type.<br>
+Results Visualization<br>
+The results are visualized using a plot showing the mean scores across episodes for both update types.<br>
+The plot also includes error bands representing the standard deviation.<br>
 
 # Results
 
 The results include:
 
-### Mean scores across episodes for both Type-1 and Type-2 updates.
-### Standard deviation of scores across episodes.
-### Moving averages of the scores to smooth out the learning curves.<br>
+#### Mean scores across episodes for both Type-1 and Type-2 updates.
+#### Standard deviation of scores across episodes.
+#### Moving averages of the scores to smooth out the learning curves.<br>
 
 The results are visualized using Matplotlib, showing the performance of the Dueling DQN agent over time for both update strategies.
 
